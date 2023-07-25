@@ -1,8 +1,8 @@
 import starImage from '../images/star.png'
 
 export default function Card(props) {
-    let badgeType
-    let badgeText
+    let badgeType;
+    let badgeText;
     if (props.openSpots === 0) {
         badgeType = "sold-out"
         badgeText = "SOLD OUT"
